@@ -175,5 +175,5 @@ function:
     welcome:
       title: 欢迎来到晓寒の互联网自留之地-二号站
       message: 若想回到/前往主站，戳我
-      icon: https://xiaorunshu.com/android-chrome-192x192.png
+      icon: 
       to-link: //blog.xiaohan-kaka.me
