@@ -12,8 +12,8 @@ site:
 
   background:
     src:
-      light: /assets/background.png
-      dark: /assets/background-night.png
+      light: https://pximg.xiaohan-kaka.me/img-original/img/2024/06/15/16/55/14/119658407_p0.jpg
+      dark: https://pximg.xiaohan-kaka.me/img-original/img/2024/01/28/17/08/46/115557051_p0.jpg
     position: top center fixed
 
   header:
@@ -68,7 +68,16 @@ site:
       - title: ''
         icon: faSubway
         path: 'https://travellings.link'
-  social: []
+  social: 
+      - url: 'https://github.com/Dreamkaka'
+        title: GitHub
+        icon: faGithub
+        color: var(--black)
+      - url: 'https://twitter.com/Dreamkaka'
+        title: twitter
+        icon: faTwitter
+        color: '#02A4ED'
+  
 
   footer:
     background:
@@ -78,14 +87,17 @@ site:
       position: top/cover
     home_page: /
     motto:
-      content: Stay hungry. Stay foolish.
-      author: Steve Jobs
+      content: 醉后不知天在水，满船清梦压星河。
+      author: 题龙阳县青草湖
     icp:
-      enable: false
-      label: '萌备 20201212 号'
-      link: https://icp.gov.moe/
+      enable: true
+      label: '萌备 20231369 号'
+      link: https://icp.gov.moe/?keyword=20231369
 
     navigation:
+      - name: 前往主站
+        path: https://blog.xiaohan-kaka.me
+        newtab: true
       - name: 关于
         path: '/about'
       - name: 留言
@@ -105,8 +117,10 @@ site:
   custom:
     script: ''
     style: ''
-    js: []
-    css: []
+    js: 
+      - https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js
+    css: 
+      - https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
 
 page:
   home:
@@ -135,16 +149,16 @@ function:
     # 默认播放列表
     # 只支持网易云
     id:
-      - 563534789
-      - 1447327083
+      - 8101231686
+      - 8800929194
       - 1450252250
   analyze:
-    enable: false
+    enable: true
     ga: ''
     baidu: ''
     umami:
-      id: ''
-      url: ''
+      id: 'df3c8bd0-4a37-4651-9f70-9e115611ce80'
+      url: 'https://umami.xiaohan-kaka.me/'
       jsname: 'umami'
       # 这是我魔改版本 umami 专属
       endpoint: 'collect'
@@ -157,4 +171,9 @@ function:
   ban_devtool:
     enable: false
 
-  notification: {}
+  notification:     
+    welcome:
+      title: 欢迎来到晓寒の互联网自留之地-二号站
+      message: 若想回到/前往主站，戳我
+      icon: https://xiaorunshu.com/android-chrome-192x192.png
+      to-link: //blog.xiaohan-kaka.me
